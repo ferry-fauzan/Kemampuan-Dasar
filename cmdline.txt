@@ -1,0 +1,147 @@
+1)-Print-
+<p>SELAMAT DATANG DI PRAXIS ACADMEY</P>
+print kata SELAMAT DATANG DI PRAXIS ACADMEY
+
+2)-Head-
+<h1>KURSUS DI PRAXIS ACADMEY</H1>
+print header ukuran 1 KURSUS DI PRAXIS ACADMEY
+
+3)-Print Image-
+<img src="buku.jpg" alt="Gambar buku">
+Print image yang dipilih
+
+4)-Order List-
+<ol>
+    <li>pisang</li>
+    <li>manggis</li>
+</ol>
+Print 1. pisang
+      2. manggis
+
+5)-Unorder List- 
+<ul>
+    <li>pisang</li>
+    <li>manggis</li>
+</ul>
+Print - pisang
+      - manggis
+
+6)-Anchor Link-
+<a href="praxisacademy.com">Klik Disini</a>
+Print Klik Disini jika ditekan maka akan menuju ke halaman web praxisacademy.com
+
+7)-Memasukkan javaScript-
+<script src="main.js"></script>
+Mengaitkan file HTML dengan javascript secara eksternal
+
+8)-Memunculkan Teks-
+let PA="Yuk gabung di PA"
+document.write(PA)
+Print "Yuk gabung di PA" di Teks
+
+9)-Memunculkan console-
+let PA="Yuk gabung di PA"
+console.log(PA)
+Print "Yuk gabung di PA" di console
+
+10)-If Else-
+let hasil=2*2
+if(hasil==4) console.log(Benar)
+else console log(Salah)
+Fungsi IF jika hasil sama dengan 4 maka tulis di console adalah Benar jika tidak sama dengan 4 maka Salah
+
+
+11)-Array-
+const array=["air","api","udara"]
+console.log(array)
+Munculkan array yang berisi air, api, udara
+
+12)-Array berdasarkan item-
+const array=["air","api","udara"]
+console.log(array.item)
+Munculkan array yang berisi air, api, udara berupa item
+
+13)-Array berdasarkan index-
+const array=["air","api","udara"]
+console.log(array[2])
+Munculkan array yang berisi api
+
+
+14)-Menambahkan isi Array-
+array.push("tanah")
+console.log(array)
+Munculkan array yang berisi air, api, udara, tanah
+
+15)-Menghapus isi array terakhir-
+array.pop()
+console.log(array)
+Munculkan array yang berisi air, api, udara (tanah telah dihapus)
+
+16)-Membuat Divisi&ID-
+<div id="Sinau">
+    .
+    .
+</div>
+Membuat divisi dengan id bernama sinau
+
+17)-Membuat Divisi&Class-
+<div class="Sinau">
+    .
+    .
+</div>
+Membuat divisi dengan class bernama sinau
+
+
+18)-Object-
+const person = {
+    firstName: "Raka",
+    lastName: "Fauzan",
+    fullName: function() {
+        return `${this.firstName} ${this.lastName}`;
+    },
+    weight: 65,
+    height: 172,
+    isWeightIdeal: function() {
+        const heightMinus100 = this.height - 100;
+        return heightMinus100 - (heightMinus100 * 10) / 100 < this.weight;
+    },
+};
+console.log(person.firstName);
+console.log(person.isWeightIdeal());
+
+Menampilkan object person spesifikasi pada firstname dan is weightideal pada consoloe
+
+19)-Optional Chaning and Null-
+const countries = {
+    ID: {
+        province: ["jawa", "bali", "smtr"],
+        city: ["smg", "solo", "mgl"],
+    },
+    MY: {},
+};
+
+console.log(countries ? .TH ? .province ? ? "Not Found");
+Menggunakan fungsi optinal chaining dan Null
+
+20.)-Looping-
+    
+    const nama = ["raka", "adit", "panji"]
+    nama.push("vian")
+    console.log(nama)
+    for (let k = 0; k < nama.length; k++) {
+    const element = nama[k]
+    console.log(element)
+    }
+
+    let kai = 0
+    while (kai < nama.length) {
+	    const element = nama[kai]
+	    console.log(element)
+	    kai++
+    }
+
+    Menggunakan fungsi looping While
+
+
+
+
